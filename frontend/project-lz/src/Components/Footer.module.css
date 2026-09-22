@@ -1,0 +1,36 @@
+.container_footer {
+    display: flex;
+    justify-content: center;
+}
+.footer
+{
+    color: white;
+    margin: 50px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    width: 500px;
+    ul
+    {
+        list-style-type: none;
+    }
+}
+.socials
+{
+    margin-bottom: -10px;
+}
+.socials svg {
+    margin-inline: 10px;
+    color: white;
+}
+.socials svg:hover {
+    margin-inline: 12px;
+    transform: rotate(360deg) scale(150%);
+    transition: 0.5s;
+    color: purple;
+}
+.copyright
+{
+    font-size: 15px;
+}

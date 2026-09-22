@@ -1,0 +1,6 @@
+@LZWebApp_HostAddress = http://localhost:5048
+
+GET {{LZWebApp_HostAddress}}/api/_3dfile/
+Accept: application/json
+
+###

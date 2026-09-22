@@ -1,0 +1,9 @@
+services:
+  lzwebapp:
+    image: ${DOCKER_REGISTRY-}lzwebapp
+    build:
+      context: .
+      dockerfile: LZWebApp/Dockerfile
+    ports:
+      - 5048:8080
+      - 7101:8081

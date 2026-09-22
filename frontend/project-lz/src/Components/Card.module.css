@@ -1,0 +1,87 @@
+@keyframes slideFadeIn {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.card
+{
+    animation: slideFadeIn 1s ease 0s 1 normal none;
+    background:
+        linear-gradient(rgb(255, 0, 64), rgba(204, 0, 255, 0));
+    /*border: 1px solid hsl(0, 0%, 100%);*/
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline;
+    position: relative;
+    transition: 0.5s
+}
+
+.card:hover
+{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.card h2 {
+    font-weight: 500;
+}
+
+@property --buttonGradientStart
+{
+    syntax: '<color>';
+    inherits: false;
+    initial-value: rgb(255, 75, 105);
+}
+
+@property --buttonGradientEnd
+{
+    syntax: '<color>';
+    inherits: false;
+    initial-value: rgba(255, 0, 119, 0.308);
+}
+
+.downloadButton
+{
+    button
+    {
+        margin: 5px;
+        width: 150px;
+        height: 35px;
+        border: none;
+        border-radius: 20px;
+        background: linear-gradient(to bottom, var(--buttonGradientStart), var(--buttonGradientEnd));
+        transition: all 0.5s
+    }
+    button:hover
+    {
+        transform: scale(1.1);
+        /*background: rgb(255, 0, 85);*/
+        margin-left: 10px;
+        margin-right: 10px;
+        --buttonGradientStart: rgb(255, 75, 105);
+        --buttonGradientEnd: rgb(255, 75, 105);
+        transition: all 0.5s;
+    }
+    button:not([disabled])
+    {
+        cursor: pointer;
+    }
+    button:active
+    {
+        --buttonGradientStart: rgb(196, 0, 0);
+        --buttonGradientEnd: rgb(196, 0, 0);
+    }
+}
+.downloadButton a {
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.background {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+    -webkit-mask-image:url(src/assets/halftone.webp);
+    mask-image: url(src/assets/halftone.webp);
+    -webkit-mask-size: 1492px 700px;
+    mask-size: 1492px 700px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: 200px, 100px;
+    mask-position: 200px, 100px;
+}
+
+.greeting {
+    position: absolute;
+    padding: 125px;
+    color: white;
+}
+
+.background img {
+    display: block;
+    max-inline-size: 100%;
+
+    width: 1920px;
+    height: 500px;
+
+    object-fit: cover;
+
+    filter: brightness(50%);
+}

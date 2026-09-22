@@ -1,0 +1,54 @@
+.container_navBar {
+	display: flex;
+	justify-content: center;
+}
+.navBar {
+    color: white;
+    border-style:solid;
+	border-radius: 30px;
+	padding: 10px;
+	border-width: 2px;
+	
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	width: 1000px;
+}
+
+.navBar ul
+{
+	display: flex;
+	list-style-type: none;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+}
+
+.navBar li
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: 0.5;
+	font-size: 20px;
+	a {
+		color: white;
+		text-decoration: none;
+		padding: 8px;
+		position: relative;
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+.navBar li:hover {
+	transform: rotate(-4deg) scale(105%);
+	transition: 0.5s;
+	a:hover {
+		color: purple;
+	}
+}
+
+
+

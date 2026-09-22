@@ -1,0 +1,89 @@
+[
+    {
+        "name": "BX Template",
+        "description": "Basic Line System",
+        "tags": [
+            "Beyblade X",
+            "BX"
+        ],
+        "files": 
+            {
+                "stl": "",
+                "stp": "",
+                "f3d": "src/assets/MockCloud/f3d/BX Blade.f3d"
+            }
+    },
+    {
+        "name": "UX Template",
+        "description": "Unique Line System",
+        "tags": [
+            "Beyblade X",
+            "UX"
+        ],
+        "files":
+            {
+                "stl": "src/assets/LZ Wallpaper.png",
+                "stp": "",
+                "f3d": ""
+            }
+    },
+    {
+        "name": "CX Template",
+        "description": "Custom Line System",
+        "tags": [
+            "Beyblade X",
+            "CX"
+        ],
+        "files":
+            {
+                "stl": "",
+                "stp": "",
+                "f3d": ""
+            }
+    },
+    {
+        "name": "BXE Template",
+        "description": "Expanded Basic Line System",
+        "tags": [
+            "Beyblade X",
+            "BX",
+            "Expand Blade"
+        ],
+        "files":
+            {
+                "stl": "",
+                "stp": "",
+                "f3d": ""
+            }
+    },
+    {
+        "name": "UXE Template",
+        "description": "Expanded Unique Line System",
+        "tags": [
+            "Beyblade X",
+            "UX",
+            "Expand Blade"
+        ],
+        "files":
+            {
+                "stl": "",
+                "stp": "",
+                "f3d": ""
+            }
+    },
+    {
+        "name": "CXE Template",
+        "description": "Expanded Custom Line System",
+        "tags": [
+            "Beyblade X",
+            "CX",
+            "Expand Blade"
+        ],
+        "files":
+            {
+                "stl": "",
+                "stp": "",
+                "f3d": ""
+            }
+    }
+]
